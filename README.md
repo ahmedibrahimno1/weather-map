@@ -4,7 +4,7 @@ This project is an interactive, real-time global weather visualization built wit
 
 ## 🔍 Features
 
-- Real-time weather data from [OpenWeatherMap API](https://openweathermap.org/)
+- Real-time weather data 
 - Hover tooltips showing temperature in °C or °F depending on region
 - Popups with detailed information (humidity, wind speed, etc.)
 - Color-coded markers based on temperature range
@@ -20,14 +20,11 @@ This project is an interactive, real-time global weather visualization built wit
 ## 🛠️ Built With
 
 - Python 3
-- Folium
-- Pandas
-- OpenWeatherMap API
 - GitHub Pages
 
 ## 👤 Author
 
-**Ahmed Mohamed Ibrahim**  
+Ahmed Mohamed Ibrahim 
 🔗 [LinkedIn Profile](https://www.linkedin.com/in/ahmedibrahimno1/)
 
 ---
