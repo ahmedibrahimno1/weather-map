@@ -17,7 +17,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_2ad328ed4fdf50b83cd96e7403319c1d {
+                #map_765d842ba3fde4db84c8c538563280ca {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -79,14 +79,14 @@
     </div>
 </div>
     
-            <div class="folium-map" id="map_2ad328ed4fdf50b83cd96e7403319c1d" ></div>
+            <div class="folium-map" id="map_765d842ba3fde4db84c8c538563280ca" ></div>
         
 </body>
 <script>
     
     
-            var map_2ad328ed4fdf50b83cd96e7403319c1d = L.map(
-                "map_2ad328ed4fdf50b83cd96e7403319c1d",
+            var map_765d842ba3fde4db84c8c538563280ca = L.map(
+                "map_765d842ba3fde4db84c8c538563280ca",
                 {
                     center: [20.0, 0.0],
                     crs: L.CRS.EPSG3857,
@@ -98,13 +98,13 @@
 
                 }
             );
-            L.control.scale().addTo(map_2ad328ed4fdf50b83cd96e7403319c1d);
+            L.control.scale().addTo(map_765d842ba3fde4db84c8c538563280ca);
 
             
 
         
     
-            var tile_layer_bad77a9e2b767a0fd7127da395619baf = L.tileLayer(
+            var tile_layer_a09be9f341645fc312052ae779950056 = L.tileLayer(
                 "https://{s}.google.com/vt/lyrs=y\u0026x={x}\u0026y={y}\u0026z={z}",
                 {
   "minZoom": 0,
@@ -126,11 +126,11 @@
             );
         
     
-            tile_layer_bad77a9e2b767a0fd7127da395619baf.addTo(map_2ad328ed4fdf50b83cd96e7403319c1d);
+            tile_layer_a09be9f341645fc312052ae779950056.addTo(map_765d842ba3fde4db84c8c538563280ca);
         
     
-            var heat_map_d62bf05eb06a503505f5bda9227845be = L.heatLayer(
-                [[38.9072, -77.0369, 28.47], [40.7128, -74.006, 21.56], [34.0522, -118.2437, 24.07], [43.65107, -79.347015, 19.3], [51.5074, -0.1278, 11.7], [48.8566, 2.3522, 12.75], [52.52, 13.405, 15.04], [35.6895, 139.6917, 31.87], [37.5665, 126.978, 22.76], [39.9042, 116.4074, 26.94], [30.0444, 31.2357, 25.42], [24.7136, 46.6753, 36.49], [-6.2088, 106.8456, 33.55], [-34.6037, -58.3816, 5.03], [-26.2041, 28.0473, 12.77], [-33.8688, 151.2093, 22.4], [34.0209, -6.8416, 22.04]],
+            var heat_map_b9a3985b7088185abb8862f08c708fb8 = L.heatLayer(
+                [[38.9072, -77.0369, 24.65], [40.7128, -74.006, 21.64], [34.0522, -118.2437, 23.36], [43.65107, -79.347015, 18.11], [51.5074, -0.1278, 13.07], [48.8566, 2.3522, 14.48], [52.52, 13.405, 15.47], [35.6895, 139.6917, 29.23], [37.5665, 126.978, 22.76], [39.9042, 116.4074, 27.94], [30.0444, 31.2357, 26.42], [24.7136, 46.6753, 39.11], [-6.2088, 106.8456, 33.82], [-34.6037, -58.3816, 4.05], [-26.2041, 28.0473, 16.76], [-33.8688, 151.2093, 18.71], [34.0209, -6.8416, 22.04]],
                 {
   "minOpacity": 0.4,
   "maxZoom": 18,
@@ -140,23 +140,359 @@
             );
         
     
-            heat_map_d62bf05eb06a503505f5bda9227845be.addTo(map_2ad328ed4fdf50b83cd96e7403319c1d);
+            heat_map_b9a3985b7088185abb8862f08c708fb8.addTo(map_765d842ba3fde4db84c8c538563280ca);
         
     
-            var feature_group_90d7324847d7537447db81f4c93f7abb = L.featureGroup(
+            var feature_group_4978f505034a3d873b280e5648964f66 = L.featureGroup(
                 {
 }
             );
         
     
-            var marker_e49eceb79d70bbd3c4b84602d4607568 = L.marker(
+            var marker_4cbc8e1e0e41397259f41859237711f4 = L.marker(
                 [38.9072, -77.0369],
                 {
 }
-            ).addTo(feature_group_90d7324847d7537447db81f4c93f7abb);
+            ).addTo(feature_group_4978f505034a3d873b280e5648964f66);
         
     
-            var icon_82b59c77151bd53788da0806154d1504 = L.AwesomeMarkers.icon(
+            var icon_e2b802a51aa10c4578ea94200abc1e17 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_117f273bd8a6ad60da0a5702f25f8873 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_f1811cea3fa6df71f1ca5f611667f931 = $(`<div id="html_f1811cea3fa6df71f1ca5f611667f931" style="width: 100.0%; height: 100.0%;">             <div style='font-size: 14px;'>                 <b>Washington, DC</b><br>                 🌡️ 24.6 °C (76.4 °F)<br>                 💧 49%<br>                 💨 2.57 m/s             </div></div>`)[0];
+                popup_117f273bd8a6ad60da0a5702f25f8873.setContent(html_f1811cea3fa6df71f1ca5f611667f931);
+            
+        
+
+        marker_4cbc8e1e0e41397259f41859237711f4.bindPopup(popup_117f273bd8a6ad60da0a5702f25f8873)
+        ;
+
+        
+    
+    
+            marker_4cbc8e1e0e41397259f41859237711f4.bindTooltip(
+                `<div>
+                     Washington, DC 76.4 °F
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4cbc8e1e0e41397259f41859237711f4.setIcon(icon_e2b802a51aa10c4578ea94200abc1e17);
+            
+    
+            var marker_80d03802e6862726bb3a6897be623178 = L.marker(
+                [40.7128, -74.006],
+                {
+}
+            ).addTo(feature_group_4978f505034a3d873b280e5648964f66);
+        
+    
+            var icon_71de19098d30bcb256395210311afcbd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_44fd88d08fc1cabdf38f21c5db4c173a = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_ae9b93a1a92b6471d3a03c9d97ab9465 = $(`<div id="html_ae9b93a1a92b6471d3a03c9d97ab9465" style="width: 100.0%; height: 100.0%;">             <div style='font-size: 14px;'>                 <b>New York</b><br>                 🌡️ 21.6 °C (71.0 °F)<br>                 💧 78%<br>                 💨 5.81 m/s             </div></div>`)[0];
+                popup_44fd88d08fc1cabdf38f21c5db4c173a.setContent(html_ae9b93a1a92b6471d3a03c9d97ab9465);
+            
+        
+
+        marker_80d03802e6862726bb3a6897be623178.bindPopup(popup_44fd88d08fc1cabdf38f21c5db4c173a)
+        ;
+
+        
+    
+    
+            marker_80d03802e6862726bb3a6897be623178.bindTooltip(
+                `<div>
+                     New York 71.0 °F
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_80d03802e6862726bb3a6897be623178.setIcon(icon_71de19098d30bcb256395210311afcbd);
+            
+    
+            var marker_cc2f55f9bbc4301539b1af2232cdbb37 = L.marker(
+                [34.0522, -118.2437],
+                {
+}
+            ).addTo(feature_group_4978f505034a3d873b280e5648964f66);
+        
+    
+            var icon_77dd35433a1e24e1de9c639464acb980 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5697303a5d5105056813a3fdec0b5b1f = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_7f7a129cab5012b2c43c7d225759a2cd = $(`<div id="html_7f7a129cab5012b2c43c7d225759a2cd" style="width: 100.0%; height: 100.0%;">             <div style='font-size: 14px;'>                 <b>Los Angeles</b><br>                 🌡️ 23.4 °C (74.0 °F)<br>                 💧 75%<br>                 💨 1.54 m/s             </div></div>`)[0];
+                popup_5697303a5d5105056813a3fdec0b5b1f.setContent(html_7f7a129cab5012b2c43c7d225759a2cd);
+            
+        
+
+        marker_cc2f55f9bbc4301539b1af2232cdbb37.bindPopup(popup_5697303a5d5105056813a3fdec0b5b1f)
+        ;
+
+        
+    
+    
+            marker_cc2f55f9bbc4301539b1af2232cdbb37.bindTooltip(
+                `<div>
+                     Los Angeles 74.0 °F
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cc2f55f9bbc4301539b1af2232cdbb37.setIcon(icon_77dd35433a1e24e1de9c639464acb980);
+            
+    
+            var marker_433713679b3aa0e0db04bf70e0bb175e = L.marker(
+                [43.65107, -79.347015],
+                {
+}
+            ).addTo(feature_group_4978f505034a3d873b280e5648964f66);
+        
+    
+            var icon_74c4e20fc05775f01a2d6d9706c624b1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_195ce52c73a96cdd7566af35bb3592e0 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_1cbf9f6859c90496fe682c8b454d3a01 = $(`<div id="html_1cbf9f6859c90496fe682c8b454d3a01" style="width: 100.0%; height: 100.0%;">             <div style='font-size: 14px;'>                 <b>Toronto</b><br>                 🌡️ 18.1 °C (18.1 °C)<br>                 💧 86%<br>                 💨 2.57 m/s             </div></div>`)[0];
+                popup_195ce52c73a96cdd7566af35bb3592e0.setContent(html_1cbf9f6859c90496fe682c8b454d3a01);
+            
+        
+
+        marker_433713679b3aa0e0db04bf70e0bb175e.bindPopup(popup_195ce52c73a96cdd7566af35bb3592e0)
+        ;
+
+        
+    
+    
+            marker_433713679b3aa0e0db04bf70e0bb175e.bindTooltip(
+                `<div>
+                     Toronto 18.1 °C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_433713679b3aa0e0db04bf70e0bb175e.setIcon(icon_74c4e20fc05775f01a2d6d9706c624b1);
+            
+    
+            var marker_a08eed68230045b2bdd6fd333159bfa4 = L.marker(
+                [51.5074, -0.1278],
+                {
+}
+            ).addTo(feature_group_4978f505034a3d873b280e5648964f66);
+        
+    
+            var icon_0c9e546edd73f5dae996e9c8b1369f50 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_36c540bf8a95674e44742b1482d14c85 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_794d3fa826be9c7b3c45f6d02ca1a1b0 = $(`<div id="html_794d3fa826be9c7b3c45f6d02ca1a1b0" style="width: 100.0%; height: 100.0%;">             <div style='font-size: 14px;'>                 <b>London</b><br>                 🌡️ 13.1 °C (13.1 °C)<br>                 💧 79%<br>                 💨 3.13 m/s             </div></div>`)[0];
+                popup_36c540bf8a95674e44742b1482d14c85.setContent(html_794d3fa826be9c7b3c45f6d02ca1a1b0);
+            
+        
+
+        marker_a08eed68230045b2bdd6fd333159bfa4.bindPopup(popup_36c540bf8a95674e44742b1482d14c85)
+        ;
+
+        
+    
+    
+            marker_a08eed68230045b2bdd6fd333159bfa4.bindTooltip(
+                `<div>
+                     London 13.1 °C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a08eed68230045b2bdd6fd333159bfa4.setIcon(icon_0c9e546edd73f5dae996e9c8b1369f50);
+            
+    
+            var marker_56ff5e9b7fa869b0680368c4bb1f05b4 = L.marker(
+                [48.8566, 2.3522],
+                {
+}
+            ).addTo(feature_group_4978f505034a3d873b280e5648964f66);
+        
+    
+            var icon_ce14a81284e9da82737f1ef6c73b3f38 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4bead8b040623cf083b74317d68c0066 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_505fd2fb95d3d2cbf75db1329c7ab41a = $(`<div id="html_505fd2fb95d3d2cbf75db1329c7ab41a" style="width: 100.0%; height: 100.0%;">             <div style='font-size: 14px;'>                 <b>Paris</b><br>                 🌡️ 14.5 °C (14.5 °C)<br>                 💧 88%<br>                 💨 2.06 m/s             </div></div>`)[0];
+                popup_4bead8b040623cf083b74317d68c0066.setContent(html_505fd2fb95d3d2cbf75db1329c7ab41a);
+            
+        
+
+        marker_56ff5e9b7fa869b0680368c4bb1f05b4.bindPopup(popup_4bead8b040623cf083b74317d68c0066)
+        ;
+
+        
+    
+    
+            marker_56ff5e9b7fa869b0680368c4bb1f05b4.bindTooltip(
+                `<div>
+                     Paris 14.5 °C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_56ff5e9b7fa869b0680368c4bb1f05b4.setIcon(icon_ce14a81284e9da82737f1ef6c73b3f38);
+            
+    
+            var marker_d8709575ff497d288aba758651cf74db = L.marker(
+                [52.52, 13.405],
+                {
+}
+            ).addTo(feature_group_4978f505034a3d873b280e5648964f66);
+        
+    
+            var icon_3cc7a96e740503d275e3488c13505488 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_176f79e5b92abeac4505473514826b07 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_6468539c2ef6367fff7fb893951a999d = $(`<div id="html_6468539c2ef6367fff7fb893951a999d" style="width: 100.0%; height: 100.0%;">             <div style='font-size: 14px;'>                 <b>Berlin</b><br>                 🌡️ 15.5 °C (15.5 °C)<br>                 💧 92%<br>                 💨 4.92 m/s             </div></div>`)[0];
+                popup_176f79e5b92abeac4505473514826b07.setContent(html_6468539c2ef6367fff7fb893951a999d);
+            
+        
+
+        marker_d8709575ff497d288aba758651cf74db.bindPopup(popup_176f79e5b92abeac4505473514826b07)
+        ;
+
+        
+    
+    
+            marker_d8709575ff497d288aba758651cf74db.bindTooltip(
+                `<div>
+                     Berlin 15.5 °C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d8709575ff497d288aba758651cf74db.setIcon(icon_3cc7a96e740503d275e3488c13505488);
+            
+    
+            var marker_4fd6a596633647b8249f04a8d88a3089 = L.marker(
+                [35.6895, 139.6917],
+                {
+}
+            ).addTo(feature_group_4978f505034a3d873b280e5648964f66);
+        
+    
+            var icon_43a0787bce588a87ae21ceef0ba8887e = L.AwesomeMarkers.icon(
                 {
   "markerColor": "orange",
   "iconColor": "white",
@@ -167,26 +503,26 @@
             );
         
     
-        var popup_cf278e6cd1533d1a39df20a741fd49b0 = L.popup({
+        var popup_bef71d514cfa1abf136797b4a45311ad = L.popup({
   "maxWidth": 250,
 });
 
         
             
-                var html_d3cedcaed147f8296a716a36d5075f01 = $(`<div id="html_d3cedcaed147f8296a716a36d5075f01" style="width: 100.0%; height: 100.0%;">             <div style='font-size: 14px;'>                 <b>Washington, DC</b><br>                 🌡️ 28.5 °C (83.2 °F)<br>                 💧 37%<br>                 💨 1.85 m/s             </div></div>`)[0];
-                popup_cf278e6cd1533d1a39df20a741fd49b0.setContent(html_d3cedcaed147f8296a716a36d5075f01);
+                var html_3d8a8d22147ae81b5f04bb63764ca880 = $(`<div id="html_3d8a8d22147ae81b5f04bb63764ca880" style="width: 100.0%; height: 100.0%;">             <div style='font-size: 14px;'>                 <b>Tokyo</b><br>                 🌡️ 29.2 °C (29.2 °C)<br>                 💧 76%<br>                 💨 7.72 m/s             </div></div>`)[0];
+                popup_bef71d514cfa1abf136797b4a45311ad.setContent(html_3d8a8d22147ae81b5f04bb63764ca880);
             
         
 
-        marker_e49eceb79d70bbd3c4b84602d4607568.bindPopup(popup_cf278e6cd1533d1a39df20a741fd49b0)
+        marker_4fd6a596633647b8249f04a8d88a3089.bindPopup(popup_bef71d514cfa1abf136797b4a45311ad)
         ;
 
         
     
     
-            marker_e49eceb79d70bbd3c4b84602d4607568.bindTooltip(
+            marker_4fd6a596633647b8249f04a8d88a3089.bindTooltip(
                 `<div>
-                     Washington, DC 83.2 °F
+                     Tokyo 29.2 °C
                  </div>`,
                 {
   "sticky": true,
@@ -194,353 +530,17 @@
             );
         
     
-                marker_e49eceb79d70bbd3c4b84602d4607568.setIcon(icon_82b59c77151bd53788da0806154d1504);
+                marker_4fd6a596633647b8249f04a8d88a3089.setIcon(icon_43a0787bce588a87ae21ceef0ba8887e);
             
     
-            var marker_4b6ba22dd30bb3cf0acfc08b33eadb14 = L.marker(
-                [40.7128, -74.006],
-                {
-}
-            ).addTo(feature_group_90d7324847d7537447db81f4c93f7abb);
-        
-    
-            var icon_8d280ea72b0f1de0371d50e7aee6f086 = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "blue",
-  "iconColor": "white",
-  "icon": "cloud",
-  "prefix": "glyphicon",
-  "extraClasses": "fa-rotate-0",
-}
-            );
-        
-    
-        var popup_e8fecc4eb71ecf4af50e7230cbbbffb8 = L.popup({
-  "maxWidth": 250,
-});
-
-        
-            
-                var html_7bd5477ccfb2212f36762754b3aa76fa = $(`<div id="html_7bd5477ccfb2212f36762754b3aa76fa" style="width: 100.0%; height: 100.0%;">             <div style='font-size: 14px;'>                 <b>New York</b><br>                 🌡️ 21.6 °C (70.8 °F)<br>                 💧 77%<br>                 💨 3.13 m/s             </div></div>`)[0];
-                popup_e8fecc4eb71ecf4af50e7230cbbbffb8.setContent(html_7bd5477ccfb2212f36762754b3aa76fa);
-            
-        
-
-        marker_4b6ba22dd30bb3cf0acfc08b33eadb14.bindPopup(popup_e8fecc4eb71ecf4af50e7230cbbbffb8)
-        ;
-
-        
-    
-    
-            marker_4b6ba22dd30bb3cf0acfc08b33eadb14.bindTooltip(
-                `<div>
-                     New York 70.8 °F
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-                marker_4b6ba22dd30bb3cf0acfc08b33eadb14.setIcon(icon_8d280ea72b0f1de0371d50e7aee6f086);
-            
-    
-            var marker_90d82f346f8b38bf9c675a92122f31d8 = L.marker(
-                [34.0522, -118.2437],
-                {
-}
-            ).addTo(feature_group_90d7324847d7537447db81f4c93f7abb);
-        
-    
-            var icon_b7879443f5416cb43e7c1474e9c9ca96 = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "blue",
-  "iconColor": "white",
-  "icon": "cloud",
-  "prefix": "glyphicon",
-  "extraClasses": "fa-rotate-0",
-}
-            );
-        
-    
-        var popup_9605d4d0efbb8574639f158db3416979 = L.popup({
-  "maxWidth": 250,
-});
-
-        
-            
-                var html_780c1d6c0059c3e79e3e6248094eee32 = $(`<div id="html_780c1d6c0059c3e79e3e6248094eee32" style="width: 100.0%; height: 100.0%;">             <div style='font-size: 14px;'>                 <b>Los Angeles</b><br>                 🌡️ 24.1 °C (75.3 °F)<br>                 💧 70%<br>                 💨 4.12 m/s             </div></div>`)[0];
-                popup_9605d4d0efbb8574639f158db3416979.setContent(html_780c1d6c0059c3e79e3e6248094eee32);
-            
-        
-
-        marker_90d82f346f8b38bf9c675a92122f31d8.bindPopup(popup_9605d4d0efbb8574639f158db3416979)
-        ;
-
-        
-    
-    
-            marker_90d82f346f8b38bf9c675a92122f31d8.bindTooltip(
-                `<div>
-                     Los Angeles 75.3 °F
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-                marker_90d82f346f8b38bf9c675a92122f31d8.setIcon(icon_b7879443f5416cb43e7c1474e9c9ca96);
-            
-    
-            var marker_871ff914b6e4e2ca746454e140af15c8 = L.marker(
-                [43.65107, -79.347015],
-                {
-}
-            ).addTo(feature_group_90d7324847d7537447db81f4c93f7abb);
-        
-    
-            var icon_5695aaf3a141beac873b722f40cc52ac = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "blue",
-  "iconColor": "white",
-  "icon": "cloud",
-  "prefix": "glyphicon",
-  "extraClasses": "fa-rotate-0",
-}
-            );
-        
-    
-        var popup_c5c7091d079abe29fed1a60e8eababa3 = L.popup({
-  "maxWidth": 250,
-});
-
-        
-            
-                var html_f8459ff073b607c80e718e08e2644645 = $(`<div id="html_f8459ff073b607c80e718e08e2644645" style="width: 100.0%; height: 100.0%;">             <div style='font-size: 14px;'>                 <b>Toronto</b><br>                 🌡️ 19.3 °C (19.3 °C)<br>                 💧 81%<br>                 💨 3.09 m/s             </div></div>`)[0];
-                popup_c5c7091d079abe29fed1a60e8eababa3.setContent(html_f8459ff073b607c80e718e08e2644645);
-            
-        
-
-        marker_871ff914b6e4e2ca746454e140af15c8.bindPopup(popup_c5c7091d079abe29fed1a60e8eababa3)
-        ;
-
-        
-    
-    
-            marker_871ff914b6e4e2ca746454e140af15c8.bindTooltip(
-                `<div>
-                     Toronto 19.3 °C
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-                marker_871ff914b6e4e2ca746454e140af15c8.setIcon(icon_5695aaf3a141beac873b722f40cc52ac);
-            
-    
-            var marker_b39b5d8912829727cb106941b820a0f5 = L.marker(
-                [51.5074, -0.1278],
-                {
-}
-            ).addTo(feature_group_90d7324847d7537447db81f4c93f7abb);
-        
-    
-            var icon_bf96175e29f64e0fd8ba177f61f431a3 = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "green",
-  "iconColor": "white",
-  "icon": "cloud",
-  "prefix": "glyphicon",
-  "extraClasses": "fa-rotate-0",
-}
-            );
-        
-    
-        var popup_425ce66285a723dd4e701ed8276b52e5 = L.popup({
-  "maxWidth": 250,
-});
-
-        
-            
-                var html_f54157439d321f78a39b00941195e3a1 = $(`<div id="html_f54157439d321f78a39b00941195e3a1" style="width: 100.0%; height: 100.0%;">             <div style='font-size: 14px;'>                 <b>London</b><br>                 🌡️ 11.7 °C (11.7 °C)<br>                 💧 82%<br>                 💨 1.8 m/s             </div></div>`)[0];
-                popup_425ce66285a723dd4e701ed8276b52e5.setContent(html_f54157439d321f78a39b00941195e3a1);
-            
-        
-
-        marker_b39b5d8912829727cb106941b820a0f5.bindPopup(popup_425ce66285a723dd4e701ed8276b52e5)
-        ;
-
-        
-    
-    
-            marker_b39b5d8912829727cb106941b820a0f5.bindTooltip(
-                `<div>
-                     London 11.7 °C
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-                marker_b39b5d8912829727cb106941b820a0f5.setIcon(icon_bf96175e29f64e0fd8ba177f61f431a3);
-            
-    
-            var marker_12dd9508bb2a85916f712e11e3cdb89f = L.marker(
-                [48.8566, 2.3522],
-                {
-}
-            ).addTo(feature_group_90d7324847d7537447db81f4c93f7abb);
-        
-    
-            var icon_3d99fb27ea56bdb8ec07c24250217052 = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "green",
-  "iconColor": "white",
-  "icon": "cloud",
-  "prefix": "glyphicon",
-  "extraClasses": "fa-rotate-0",
-}
-            );
-        
-    
-        var popup_80ea17d2b4d1479237a314f18c991c78 = L.popup({
-  "maxWidth": 250,
-});
-
-        
-            
-                var html_cea554f9664b8c2ccead233e4b90a838 = $(`<div id="html_cea554f9664b8c2ccead233e4b90a838" style="width: 100.0%; height: 100.0%;">             <div style='font-size: 14px;'>                 <b>Paris</b><br>                 🌡️ 12.8 °C (12.8 °C)<br>                 💧 91%<br>                 💨 1.54 m/s             </div></div>`)[0];
-                popup_80ea17d2b4d1479237a314f18c991c78.setContent(html_cea554f9664b8c2ccead233e4b90a838);
-            
-        
-
-        marker_12dd9508bb2a85916f712e11e3cdb89f.bindPopup(popup_80ea17d2b4d1479237a314f18c991c78)
-        ;
-
-        
-    
-    
-            marker_12dd9508bb2a85916f712e11e3cdb89f.bindTooltip(
-                `<div>
-                     Paris 12.8 °C
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-                marker_12dd9508bb2a85916f712e11e3cdb89f.setIcon(icon_3d99fb27ea56bdb8ec07c24250217052);
-            
-    
-            var marker_7a0c63d1c3c06655f7e1dd18e6f66b15 = L.marker(
-                [52.52, 13.405],
-                {
-}
-            ).addTo(feature_group_90d7324847d7537447db81f4c93f7abb);
-        
-    
-            var icon_c14489afbd2ac0cad4b0f28f4b169296 = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "blue",
-  "iconColor": "white",
-  "icon": "cloud",
-  "prefix": "glyphicon",
-  "extraClasses": "fa-rotate-0",
-}
-            );
-        
-    
-        var popup_12e4f4da184d62f403864633aed50c3f = L.popup({
-  "maxWidth": 250,
-});
-
-        
-            
-                var html_7c1a4350797132f78967de14e91e4512 = $(`<div id="html_7c1a4350797132f78967de14e91e4512" style="width: 100.0%; height: 100.0%;">             <div style='font-size: 14px;'>                 <b>Berlin</b><br>                 🌡️ 15.0 °C (15.0 °C)<br>                 💧 95%<br>                 💨 4.02 m/s             </div></div>`)[0];
-                popup_12e4f4da184d62f403864633aed50c3f.setContent(html_7c1a4350797132f78967de14e91e4512);
-            
-        
-
-        marker_7a0c63d1c3c06655f7e1dd18e6f66b15.bindPopup(popup_12e4f4da184d62f403864633aed50c3f)
-        ;
-
-        
-    
-    
-            marker_7a0c63d1c3c06655f7e1dd18e6f66b15.bindTooltip(
-                `<div>
-                     Berlin 15.0 °C
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-                marker_7a0c63d1c3c06655f7e1dd18e6f66b15.setIcon(icon_c14489afbd2ac0cad4b0f28f4b169296);
-            
-    
-            var marker_91a69996fb2c537d4c54c711416fbb45 = L.marker(
-                [35.6895, 139.6917],
-                {
-}
-            ).addTo(feature_group_90d7324847d7537447db81f4c93f7abb);
-        
-    
-            var icon_c963159e8ee42fb8cc9f51d133271918 = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "red",
-  "iconColor": "white",
-  "icon": "cloud",
-  "prefix": "glyphicon",
-  "extraClasses": "fa-rotate-0",
-}
-            );
-        
-    
-        var popup_b2c6dd7f5fa2cc17b39854583ae580e6 = L.popup({
-  "maxWidth": 250,
-});
-
-        
-            
-                var html_e31d47a43544ea2ff89ea98dc052a437 = $(`<div id="html_e31d47a43544ea2ff89ea98dc052a437" style="width: 100.0%; height: 100.0%;">             <div style='font-size: 14px;'>                 <b>Tokyo</b><br>                 🌡️ 31.9 °C (31.9 °C)<br>                 💧 63%<br>                 💨 4.12 m/s             </div></div>`)[0];
-                popup_b2c6dd7f5fa2cc17b39854583ae580e6.setContent(html_e31d47a43544ea2ff89ea98dc052a437);
-            
-        
-
-        marker_91a69996fb2c537d4c54c711416fbb45.bindPopup(popup_b2c6dd7f5fa2cc17b39854583ae580e6)
-        ;
-
-        
-    
-    
-            marker_91a69996fb2c537d4c54c711416fbb45.bindTooltip(
-                `<div>
-                     Tokyo 31.9 °C
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-                marker_91a69996fb2c537d4c54c711416fbb45.setIcon(icon_c963159e8ee42fb8cc9f51d133271918);
-            
-    
-            var marker_3a6670748b1a463c23f3dd761d07b8c6 = L.marker(
+            var marker_9e31943227f2e1512390d23c7f4b36f8 = L.marker(
                 [37.5665, 126.978],
                 {
 }
-            ).addTo(feature_group_90d7324847d7537447db81f4c93f7abb);
+            ).addTo(feature_group_4978f505034a3d873b280e5648964f66);
         
     
-            var icon_77dc5cd2a0321853d01931950df7d374 = L.AwesomeMarkers.icon(
+            var icon_20265a7ea550acaaf6125d629ce675f8 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "blue",
   "iconColor": "white",
@@ -551,24 +551,24 @@
             );
         
     
-        var popup_5f6eccbf043e9ce5e08341226a1cb71f = L.popup({
+        var popup_e1961d4940710d00962b18b536ecbc5a = L.popup({
   "maxWidth": 250,
 });
 
         
             
-                var html_ef2875df744223c5f37063c7ced6885e = $(`<div id="html_ef2875df744223c5f37063c7ced6885e" style="width: 100.0%; height: 100.0%;">             <div style='font-size: 14px;'>                 <b>Seoul</b><br>                 🌡️ 22.8 °C (22.8 °C)<br>                 💧 100%<br>                 💨 2.06 m/s             </div></div>`)[0];
-                popup_5f6eccbf043e9ce5e08341226a1cb71f.setContent(html_ef2875df744223c5f37063c7ced6885e);
+                var html_3073b8fc947bc0ae938cb244bff1939a = $(`<div id="html_3073b8fc947bc0ae938cb244bff1939a" style="width: 100.0%; height: 100.0%;">             <div style='font-size: 14px;'>                 <b>Seoul</b><br>                 🌡️ 22.8 °C (22.8 °C)<br>                 💧 100%<br>                 💨 2.57 m/s             </div></div>`)[0];
+                popup_e1961d4940710d00962b18b536ecbc5a.setContent(html_3073b8fc947bc0ae938cb244bff1939a);
             
         
 
-        marker_3a6670748b1a463c23f3dd761d07b8c6.bindPopup(popup_5f6eccbf043e9ce5e08341226a1cb71f)
+        marker_9e31943227f2e1512390d23c7f4b36f8.bindPopup(popup_e1961d4940710d00962b18b536ecbc5a)
         ;
 
         
     
     
-            marker_3a6670748b1a463c23f3dd761d07b8c6.bindTooltip(
+            marker_9e31943227f2e1512390d23c7f4b36f8.bindTooltip(
                 `<div>
                      Seoul 22.8 °C
                  </div>`,
@@ -578,17 +578,17 @@
             );
         
     
-                marker_3a6670748b1a463c23f3dd761d07b8c6.setIcon(icon_77dc5cd2a0321853d01931950df7d374);
+                marker_9e31943227f2e1512390d23c7f4b36f8.setIcon(icon_20265a7ea550acaaf6125d629ce675f8);
             
     
-            var marker_22ec9279df3b8afdb0af5b73d86e2038 = L.marker(
+            var marker_64579f41c8d031e56df8299fe5005359 = L.marker(
                 [39.9042, 116.4074],
                 {
 }
-            ).addTo(feature_group_90d7324847d7537447db81f4c93f7abb);
+            ).addTo(feature_group_4978f505034a3d873b280e5648964f66);
         
     
-            var icon_ad623938270f42a94787be2cf451c305 = L.AwesomeMarkers.icon(
+            var icon_2cc091e02705c4cff8ba4164de9be91e = L.AwesomeMarkers.icon(
                 {
   "markerColor": "orange",
   "iconColor": "white",
@@ -599,26 +599,26 @@
             );
         
     
-        var popup_48338997deee7a449f9ef6ec037fb551 = L.popup({
+        var popup_1bb240974a9c18441253021cd7443c68 = L.popup({
   "maxWidth": 250,
 });
 
         
             
-                var html_dc185c006f379ccbf6f18f298b6a3df4 = $(`<div id="html_dc185c006f379ccbf6f18f298b6a3df4" style="width: 100.0%; height: 100.0%;">             <div style='font-size: 14px;'>                 <b>Beijing</b><br>                 🌡️ 26.9 °C (26.9 °C)<br>                 💧 81%<br>                 💨 1.91 m/s             </div></div>`)[0];
-                popup_48338997deee7a449f9ef6ec037fb551.setContent(html_dc185c006f379ccbf6f18f298b6a3df4);
+                var html_eb2d450036ecc99da1ff79884443dbf9 = $(`<div id="html_eb2d450036ecc99da1ff79884443dbf9" style="width: 100.0%; height: 100.0%;">             <div style='font-size: 14px;'>                 <b>Beijing</b><br>                 🌡️ 27.9 °C (27.9 °C)<br>                 💧 64%<br>                 💨 2.29 m/s             </div></div>`)[0];
+                popup_1bb240974a9c18441253021cd7443c68.setContent(html_eb2d450036ecc99da1ff79884443dbf9);
             
         
 
-        marker_22ec9279df3b8afdb0af5b73d86e2038.bindPopup(popup_48338997deee7a449f9ef6ec037fb551)
+        marker_64579f41c8d031e56df8299fe5005359.bindPopup(popup_1bb240974a9c18441253021cd7443c68)
         ;
 
         
     
     
-            marker_22ec9279df3b8afdb0af5b73d86e2038.bindTooltip(
+            marker_64579f41c8d031e56df8299fe5005359.bindTooltip(
                 `<div>
-                     Beijing 26.9 °C
+                     Beijing 27.9 °C
                  </div>`,
                 {
   "sticky": true,
@@ -626,17 +626,17 @@
             );
         
     
-                marker_22ec9279df3b8afdb0af5b73d86e2038.setIcon(icon_ad623938270f42a94787be2cf451c305);
+                marker_64579f41c8d031e56df8299fe5005359.setIcon(icon_2cc091e02705c4cff8ba4164de9be91e);
             
     
-            var marker_8c3b777060f0bad3cc15d2fec1daa992 = L.marker(
+            var marker_ac2b521420463a681f62a340ed276145 = L.marker(
                 [30.0444, 31.2357],
                 {
 }
-            ).addTo(feature_group_90d7324847d7537447db81f4c93f7abb);
+            ).addTo(feature_group_4978f505034a3d873b280e5648964f66);
         
     
-            var icon_5ee4f18bb1a9ee9341a6f7088e05786e = L.AwesomeMarkers.icon(
+            var icon_968772a167f194da959cce274af9e8c6 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "orange",
   "iconColor": "white",
@@ -647,26 +647,26 @@
             );
         
     
-        var popup_b223fc08b663ea084591dfdc29a519ff = L.popup({
+        var popup_faf7cf1324af235c3b76589d6cd97b76 = L.popup({
   "maxWidth": 250,
 });
 
         
             
-                var html_2f76db957ab009b94be4ef8df1f5a6c8 = $(`<div id="html_2f76db957ab009b94be4ef8df1f5a6c8" style="width: 100.0%; height: 100.0%;">             <div style='font-size: 14px;'>                 <b>Cairo</b><br>                 🌡️ 25.4 °C (25.4 °C)<br>                 💧 78%<br>                 💨 3.09 m/s             </div></div>`)[0];
-                popup_b223fc08b663ea084591dfdc29a519ff.setContent(html_2f76db957ab009b94be4ef8df1f5a6c8);
+                var html_f62b0bb134eac91f8c1f7b9c4c835502 = $(`<div id="html_f62b0bb134eac91f8c1f7b9c4c835502" style="width: 100.0%; height: 100.0%;">             <div style='font-size: 14px;'>                 <b>Cairo</b><br>                 🌡️ 26.4 °C (26.4 °C)<br>                 💧 65%<br>                 💨 2.06 m/s             </div></div>`)[0];
+                popup_faf7cf1324af235c3b76589d6cd97b76.setContent(html_f62b0bb134eac91f8c1f7b9c4c835502);
             
         
 
-        marker_8c3b777060f0bad3cc15d2fec1daa992.bindPopup(popup_b223fc08b663ea084591dfdc29a519ff)
+        marker_ac2b521420463a681f62a340ed276145.bindPopup(popup_faf7cf1324af235c3b76589d6cd97b76)
         ;
 
         
     
     
-            marker_8c3b777060f0bad3cc15d2fec1daa992.bindTooltip(
+            marker_ac2b521420463a681f62a340ed276145.bindTooltip(
                 `<div>
-                     Cairo 25.4 °C
+                     Cairo 26.4 °C
                  </div>`,
                 {
   "sticky": true,
@@ -674,17 +674,17 @@
             );
         
     
-                marker_8c3b777060f0bad3cc15d2fec1daa992.setIcon(icon_5ee4f18bb1a9ee9341a6f7088e05786e);
+                marker_ac2b521420463a681f62a340ed276145.setIcon(icon_968772a167f194da959cce274af9e8c6);
             
     
-            var marker_06a070a54cac4e60db8da28f9134e793 = L.marker(
+            var marker_8341f751f27e1411a52f6462a088b958 = L.marker(
                 [24.7136, 46.6753],
                 {
 }
-            ).addTo(feature_group_90d7324847d7537447db81f4c93f7abb);
+            ).addTo(feature_group_4978f505034a3d873b280e5648964f66);
         
     
-            var icon_a464ddf771f44be0d26a61f0b4897e31 = L.AwesomeMarkers.icon(
+            var icon_94f6cf3b0e0eeab594fc9e2543c813bd = L.AwesomeMarkers.icon(
                 {
   "markerColor": "darkred",
   "iconColor": "white",
@@ -695,26 +695,26 @@
             );
         
     
-        var popup_c07354c72eb40809445709a64165aa98 = L.popup({
+        var popup_1b41e763337a6f8d160765a85401da0c = L.popup({
   "maxWidth": 250,
 });
 
         
             
-                var html_b427cde04f96390ad936b153d86c226e = $(`<div id="html_b427cde04f96390ad936b153d86c226e" style="width: 100.0%; height: 100.0%;">             <div style='font-size: 14px;'>                 <b>Riyadh</b><br>                 🌡️ 36.5 °C (36.5 °C)<br>                 💧 9%<br>                 💨 5.65 m/s             </div></div>`)[0];
-                popup_c07354c72eb40809445709a64165aa98.setContent(html_b427cde04f96390ad936b153d86c226e);
+                var html_3e500ca319c3d2ffe3d752573b0790e0 = $(`<div id="html_3e500ca319c3d2ffe3d752573b0790e0" style="width: 100.0%; height: 100.0%;">             <div style='font-size: 14px;'>                 <b>Riyadh</b><br>                 🌡️ 39.1 °C (39.1 °C)<br>                 💧 8%<br>                 💨 6.47 m/s             </div></div>`)[0];
+                popup_1b41e763337a6f8d160765a85401da0c.setContent(html_3e500ca319c3d2ffe3d752573b0790e0);
             
         
 
-        marker_06a070a54cac4e60db8da28f9134e793.bindPopup(popup_c07354c72eb40809445709a64165aa98)
+        marker_8341f751f27e1411a52f6462a088b958.bindPopup(popup_1b41e763337a6f8d160765a85401da0c)
         ;
 
         
     
     
-            marker_06a070a54cac4e60db8da28f9134e793.bindTooltip(
+            marker_8341f751f27e1411a52f6462a088b958.bindTooltip(
                 `<div>
-                     Riyadh 36.5 °C
+                     Riyadh 39.1 °C
                  </div>`,
                 {
   "sticky": true,
@@ -722,17 +722,17 @@
             );
         
     
-                marker_06a070a54cac4e60db8da28f9134e793.setIcon(icon_a464ddf771f44be0d26a61f0b4897e31);
+                marker_8341f751f27e1411a52f6462a088b958.setIcon(icon_94f6cf3b0e0eeab594fc9e2543c813bd);
             
     
-            var marker_43608cbaad9eb1d2b3db06bc7b980b5e = L.marker(
+            var marker_5457b28bb732b3d16f9bb11f97630d79 = L.marker(
                 [-6.2088, 106.8456],
                 {
 }
-            ).addTo(feature_group_90d7324847d7537447db81f4c93f7abb);
+            ).addTo(feature_group_4978f505034a3d873b280e5648964f66);
         
     
-            var icon_a7c9e11596bb6164b64b821409878bc3 = L.AwesomeMarkers.icon(
+            var icon_8bf1afd170cd738bcb804ad6b46800fa = L.AwesomeMarkers.icon(
                 {
   "markerColor": "red",
   "iconColor": "white",
@@ -743,26 +743,26 @@
             );
         
     
-        var popup_3c50e20eeed7a80eff1491ff9e98bebd = L.popup({
+        var popup_afd6d437dad24d6f4c1bfc4d12e5c64a = L.popup({
   "maxWidth": 250,
 });
 
         
             
-                var html_2ae3ed4bcc89d6c6762e7cf22d998105 = $(`<div id="html_2ae3ed4bcc89d6c6762e7cf22d998105" style="width: 100.0%; height: 100.0%;">             <div style='font-size: 14px;'>                 <b>Jakarta</b><br>                 🌡️ 33.5 °C (33.5 °C)<br>                 💧 49%<br>                 💨 1.79 m/s             </div></div>`)[0];
-                popup_3c50e20eeed7a80eff1491ff9e98bebd.setContent(html_2ae3ed4bcc89d6c6762e7cf22d998105);
+                var html_49cecba69fa5d7ef7993678a7545ddc5 = $(`<div id="html_49cecba69fa5d7ef7993678a7545ddc5" style="width: 100.0%; height: 100.0%;">             <div style='font-size: 14px;'>                 <b>Jakarta</b><br>                 🌡️ 33.8 °C (33.8 °C)<br>                 💧 49%<br>                 💨 4.47 m/s             </div></div>`)[0];
+                popup_afd6d437dad24d6f4c1bfc4d12e5c64a.setContent(html_49cecba69fa5d7ef7993678a7545ddc5);
             
         
 
-        marker_43608cbaad9eb1d2b3db06bc7b980b5e.bindPopup(popup_3c50e20eeed7a80eff1491ff9e98bebd)
+        marker_5457b28bb732b3d16f9bb11f97630d79.bindPopup(popup_afd6d437dad24d6f4c1bfc4d12e5c64a)
         ;
 
         
     
     
-            marker_43608cbaad9eb1d2b3db06bc7b980b5e.bindTooltip(
+            marker_5457b28bb732b3d16f9bb11f97630d79.bindTooltip(
                 `<div>
-                     Jakarta 33.5 °C
+                     Jakarta 33.8 °C
                  </div>`,
                 {
   "sticky": true,
@@ -770,17 +770,17 @@
             );
         
     
-                marker_43608cbaad9eb1d2b3db06bc7b980b5e.setIcon(icon_a7c9e11596bb6164b64b821409878bc3);
+                marker_5457b28bb732b3d16f9bb11f97630d79.setIcon(icon_8bf1afd170cd738bcb804ad6b46800fa);
             
     
-            var marker_297a0dcad1fbddd1d38e4fc63dbe1a4c = L.marker(
+            var marker_b9b4dccf3d5b35c02bdcb61c208b8d4b = L.marker(
                 [-34.6037, -58.3816],
                 {
 }
-            ).addTo(feature_group_90d7324847d7537447db81f4c93f7abb);
+            ).addTo(feature_group_4978f505034a3d873b280e5648964f66);
         
     
-            var icon_d22c13a89ce41b854ca6d763d2bf3792 = L.AwesomeMarkers.icon(
+            var icon_9e46df341fb2808235f103642f83aa6f = L.AwesomeMarkers.icon(
                 {
   "markerColor": "green",
   "iconColor": "white",
@@ -791,26 +791,26 @@
             );
         
     
-        var popup_f717d6d903e559c513d45df4ccd96bf2 = L.popup({
+        var popup_7ecbb9ec3bfe2fa457502670147d10e8 = L.popup({
   "maxWidth": 250,
 });
 
         
             
-                var html_4d5c3f865bdadd80a9cecd2bfdead26e = $(`<div id="html_4d5c3f865bdadd80a9cecd2bfdead26e" style="width: 100.0%; height: 100.0%;">             <div style='font-size: 14px;'>                 <b>Buenos Aires</b><br>                 🌡️ 5.0 °C (5.0 °C)<br>                 💧 71%<br>                 💨 1.54 m/s             </div></div>`)[0];
-                popup_f717d6d903e559c513d45df4ccd96bf2.setContent(html_4d5c3f865bdadd80a9cecd2bfdead26e);
+                var html_d9397b2d1034baf763d3d43e4491d825 = $(`<div id="html_d9397b2d1034baf763d3d43e4491d825" style="width: 100.0%; height: 100.0%;">             <div style='font-size: 14px;'>                 <b>Buenos Aires</b><br>                 🌡️ 4.0 °C (4.0 °C)<br>                 💧 76%<br>                 💨 3.31 m/s             </div></div>`)[0];
+                popup_7ecbb9ec3bfe2fa457502670147d10e8.setContent(html_d9397b2d1034baf763d3d43e4491d825);
             
         
 
-        marker_297a0dcad1fbddd1d38e4fc63dbe1a4c.bindPopup(popup_f717d6d903e559c513d45df4ccd96bf2)
+        marker_b9b4dccf3d5b35c02bdcb61c208b8d4b.bindPopup(popup_7ecbb9ec3bfe2fa457502670147d10e8)
         ;
 
         
     
     
-            marker_297a0dcad1fbddd1d38e4fc63dbe1a4c.bindTooltip(
+            marker_b9b4dccf3d5b35c02bdcb61c208b8d4b.bindTooltip(
                 `<div>
-                     Buenos Aires 5.0 °C
+                     Buenos Aires 4.0 °C
                  </div>`,
                 {
   "sticky": true,
@@ -818,19 +818,19 @@
             );
         
     
-                marker_297a0dcad1fbddd1d38e4fc63dbe1a4c.setIcon(icon_d22c13a89ce41b854ca6d763d2bf3792);
+                marker_b9b4dccf3d5b35c02bdcb61c208b8d4b.setIcon(icon_9e46df341fb2808235f103642f83aa6f);
             
     
-            var marker_ccab4a42638a940179436486be84b541 = L.marker(
+            var marker_1633557d38dc5a4385dfc4249545b83f = L.marker(
                 [-26.2041, 28.0473],
                 {
 }
-            ).addTo(feature_group_90d7324847d7537447db81f4c93f7abb);
+            ).addTo(feature_group_4978f505034a3d873b280e5648964f66);
         
     
-            var icon_ce3f275373ae50b9a1438d27b5bd86f6 = L.AwesomeMarkers.icon(
+            var icon_506884dcb4ef9cac6ebdfc512058e429 = L.AwesomeMarkers.icon(
                 {
-  "markerColor": "green",
+  "markerColor": "blue",
   "iconColor": "white",
   "icon": "cloud",
   "prefix": "glyphicon",
@@ -839,26 +839,26 @@
             );
         
     
-        var popup_b072527a665076bf9b8d7275bbe565f4 = L.popup({
+        var popup_f7c69bbc0882b7830eaebf7f23c37f12 = L.popup({
   "maxWidth": 250,
 });
 
         
             
-                var html_8056e69791a3a0bed4efc1c2972ee7cb = $(`<div id="html_8056e69791a3a0bed4efc1c2972ee7cb" style="width: 100.0%; height: 100.0%;">             <div style='font-size: 14px;'>                 <b>Johannesburg</b><br>                 🌡️ 12.8 °C (12.8 °C)<br>                 💧 53%<br>                 💨 5.14 m/s             </div></div>`)[0];
-                popup_b072527a665076bf9b8d7275bbe565f4.setContent(html_8056e69791a3a0bed4efc1c2972ee7cb);
+                var html_2711a486ac5d93f212864d84646e02e7 = $(`<div id="html_2711a486ac5d93f212864d84646e02e7" style="width: 100.0%; height: 100.0%;">             <div style='font-size: 14px;'>                 <b>Johannesburg</b><br>                 🌡️ 16.8 °C (16.8 °C)<br>                 💧 40%<br>                 💨 5.66 m/s             </div></div>`)[0];
+                popup_f7c69bbc0882b7830eaebf7f23c37f12.setContent(html_2711a486ac5d93f212864d84646e02e7);
             
         
 
-        marker_ccab4a42638a940179436486be84b541.bindPopup(popup_b072527a665076bf9b8d7275bbe565f4)
+        marker_1633557d38dc5a4385dfc4249545b83f.bindPopup(popup_f7c69bbc0882b7830eaebf7f23c37f12)
         ;
 
         
     
     
-            marker_ccab4a42638a940179436486be84b541.bindTooltip(
+            marker_1633557d38dc5a4385dfc4249545b83f.bindTooltip(
                 `<div>
-                     Johannesburg 12.8 °C
+                     Johannesburg 16.8 °C
                  </div>`,
                 {
   "sticky": true,
@@ -866,17 +866,17 @@
             );
         
     
-                marker_ccab4a42638a940179436486be84b541.setIcon(icon_ce3f275373ae50b9a1438d27b5bd86f6);
+                marker_1633557d38dc5a4385dfc4249545b83f.setIcon(icon_506884dcb4ef9cac6ebdfc512058e429);
             
     
-            var marker_55dd4818502c7081ddf8c5215504b7a0 = L.marker(
+            var marker_72b0a7771fc5734adcb0420bd36e3825 = L.marker(
                 [-33.8688, 151.2093],
                 {
 }
-            ).addTo(feature_group_90d7324847d7537447db81f4c93f7abb);
+            ).addTo(feature_group_4978f505034a3d873b280e5648964f66);
         
     
-            var icon_920420c32b1581f8b9d522989b8e596f = L.AwesomeMarkers.icon(
+            var icon_57d10787e4c9ee7e5452240df3075cf8 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "blue",
   "iconColor": "white",
@@ -887,26 +887,26 @@
             );
         
     
-        var popup_04092c7a7ca5c775325dd7cb28d3ca81 = L.popup({
+        var popup_b74b34fc2037d12a795bb48f1024c7f6 = L.popup({
   "maxWidth": 250,
 });
 
         
             
-                var html_6e549650eb310ad2ab0a4146a372c7fa = $(`<div id="html_6e549650eb310ad2ab0a4146a372c7fa" style="width: 100.0%; height: 100.0%;">             <div style='font-size: 14px;'>                 <b>Sydney</b><br>                 🌡️ 22.4 °C (22.4 °C)<br>                 💧 45%<br>                 💨 3.68 m/s             </div></div>`)[0];
-                popup_04092c7a7ca5c775325dd7cb28d3ca81.setContent(html_6e549650eb310ad2ab0a4146a372c7fa);
+                var html_d5bcdba60d75e919a5d44adac023c6ea = $(`<div id="html_d5bcdba60d75e919a5d44adac023c6ea" style="width: 100.0%; height: 100.0%;">             <div style='font-size: 14px;'>                 <b>Sydney</b><br>                 🌡️ 18.7 °C (18.7 °C)<br>                 💧 56%<br>                 💨 4.63 m/s             </div></div>`)[0];
+                popup_b74b34fc2037d12a795bb48f1024c7f6.setContent(html_d5bcdba60d75e919a5d44adac023c6ea);
             
         
 
-        marker_55dd4818502c7081ddf8c5215504b7a0.bindPopup(popup_04092c7a7ca5c775325dd7cb28d3ca81)
+        marker_72b0a7771fc5734adcb0420bd36e3825.bindPopup(popup_b74b34fc2037d12a795bb48f1024c7f6)
         ;
 
         
     
     
-            marker_55dd4818502c7081ddf8c5215504b7a0.bindTooltip(
+            marker_72b0a7771fc5734adcb0420bd36e3825.bindTooltip(
                 `<div>
-                     Sydney 22.4 °C
+                     Sydney 18.7 °C
                  </div>`,
                 {
   "sticky": true,
@@ -914,17 +914,17 @@
             );
         
     
-                marker_55dd4818502c7081ddf8c5215504b7a0.setIcon(icon_920420c32b1581f8b9d522989b8e596f);
+                marker_72b0a7771fc5734adcb0420bd36e3825.setIcon(icon_57d10787e4c9ee7e5452240df3075cf8);
             
     
-            var marker_2b4b651ca052449e21f9e6f216a26c08 = L.marker(
+            var marker_caf6953a25392e8f904a2daa8700f596 = L.marker(
                 [34.0209, -6.8416],
                 {
 }
-            ).addTo(feature_group_90d7324847d7537447db81f4c93f7abb);
+            ).addTo(feature_group_4978f505034a3d873b280e5648964f66);
         
     
-            var icon_9f35d281029ce1bc9dad6b7d1dbd24ac = L.AwesomeMarkers.icon(
+            var icon_0f773e121f4636870f11a8935ca28ea7 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "blue",
   "iconColor": "white",
@@ -935,24 +935,24 @@
             );
         
     
-        var popup_aaa685f575f0438acf21708341fda583 = L.popup({
+        var popup_fa3675bea2ac805946ae47051e611ca6 = L.popup({
   "maxWidth": 250,
 });
 
         
             
-                var html_a510ff7704bbdbba91904623662523fa = $(`<div id="html_a510ff7704bbdbba91904623662523fa" style="width: 100.0%; height: 100.0%;">             <div style='font-size: 14px;'>                 <b>Rabat</b><br>                 🌡️ 22.0 °C (22.0 °C)<br>                 💧 78%<br>                 💨 1.54 m/s             </div></div>`)[0];
-                popup_aaa685f575f0438acf21708341fda583.setContent(html_a510ff7704bbdbba91904623662523fa);
+                var html_cc001407ca2835949b09c03862d09ef6 = $(`<div id="html_cc001407ca2835949b09c03862d09ef6" style="width: 100.0%; height: 100.0%;">             <div style='font-size: 14px;'>                 <b>Rabat</b><br>                 🌡️ 22.0 °C (22.0 °C)<br>                 💧 78%<br>                 💨 1.54 m/s             </div></div>`)[0];
+                popup_fa3675bea2ac805946ae47051e611ca6.setContent(html_cc001407ca2835949b09c03862d09ef6);
             
         
 
-        marker_2b4b651ca052449e21f9e6f216a26c08.bindPopup(popup_aaa685f575f0438acf21708341fda583)
+        marker_caf6953a25392e8f904a2daa8700f596.bindPopup(popup_fa3675bea2ac805946ae47051e611ca6)
         ;
 
         
     
     
-            marker_2b4b651ca052449e21f9e6f216a26c08.bindTooltip(
+            marker_caf6953a25392e8f904a2daa8700f596.bindTooltip(
                 `<div>
                      Rabat 22.0 °C
                  </div>`,
@@ -962,36 +962,36 @@
             );
         
     
-                marker_2b4b651ca052449e21f9e6f216a26c08.setIcon(icon_9f35d281029ce1bc9dad6b7d1dbd24ac);
+                marker_caf6953a25392e8f904a2daa8700f596.setIcon(icon_0f773e121f4636870f11a8935ca28ea7);
             
     
-            feature_group_90d7324847d7537447db81f4c93f7abb.addTo(map_2ad328ed4fdf50b83cd96e7403319c1d);
+            feature_group_4978f505034a3d873b280e5648964f66.addTo(map_765d842ba3fde4db84c8c538563280ca);
         
     
-            map_2ad328ed4fdf50b83cd96e7403319c1d.fitBounds(
+            map_765d842ba3fde4db84c8c538563280ca.fitBounds(
                 [[38.9072, -77.0369], [40.7128, -74.006], [34.0522, -118.2437], [43.65107, -79.347015], [51.5074, -0.1278], [48.8566, 2.3522], [52.52, 13.405], [35.6895, 139.6917], [37.5665, 126.978], [39.9042, 116.4074], [30.0444, 31.2357], [24.7136, 46.6753], [-6.2088, 106.8456], [-34.6037, -58.3816], [-26.2041, 28.0473], [-33.8688, 151.2093], [34.0209, -6.8416]],
                 {}
             );
         
     
-            var layer_control_d675b8b95c5fd323e2915465e281b9bf_layers = {
+            var layer_control_bbaa5e5903b0d3ad2cc9e6bbf033a7db_layers = {
                 base_layers : {
-                    "Google Hybrid" : tile_layer_bad77a9e2b767a0fd7127da395619baf,
+                    "Google Hybrid" : tile_layer_a09be9f341645fc312052ae779950056,
                 },
                 overlays :  {
-                    "Temperature Heatmap" : heat_map_d62bf05eb06a503505f5bda9227845be,
-                    "Cities" : feature_group_90d7324847d7537447db81f4c93f7abb,
+                    "Temperature Heatmap" : heat_map_b9a3985b7088185abb8862f08c708fb8,
+                    "Cities" : feature_group_4978f505034a3d873b280e5648964f66,
                 },
             };
-            let layer_control_d675b8b95c5fd323e2915465e281b9bf = L.control.layers(
-                layer_control_d675b8b95c5fd323e2915465e281b9bf_layers.base_layers,
-                layer_control_d675b8b95c5fd323e2915465e281b9bf_layers.overlays,
+            let layer_control_bbaa5e5903b0d3ad2cc9e6bbf033a7db = L.control.layers(
+                layer_control_bbaa5e5903b0d3ad2cc9e6bbf033a7db_layers.base_layers,
+                layer_control_bbaa5e5903b0d3ad2cc9e6bbf033a7db_layers.overlays,
                 {
   "position": "topright",
   "collapsed": false,
   "autoZIndex": true,
 }
-            ).addTo(map_2ad328ed4fdf50b83cd96e7403319c1d);
+            ).addTo(map_765d842ba3fde4db84c8c538563280ca);
 
         
 </script>
